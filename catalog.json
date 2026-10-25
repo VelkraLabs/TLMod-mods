@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "mods": [
+    {
+      "id": "tlmod.boss_checklist",
+      "name": "Boss Checklist",
+      "version": "0.1.0",
+      "authors": [
+        "TLMod"
+      ],
+      "description": "Lê quais bosses, minibosses e eventos já foram derrotados no mundo atual e expõe a lista para a interface.",
+      "tlmod_api": 1,
+      "icon_item": 149,
+      "files": {
+        "android-arm64": {
+          "url": "https://raw.githubusercontent.com/VelkraLabs/TLMod-mods/main/pacotes/tlmod.boss_checklist-0.1.0-android-arm64.zip",
+          "size": 83233,
+          "sha256": "c1c837737f4cf50d37bfd18371c6af198f5a3af448692a9347ae30b3e834ab9b"
+        }
+      }
+    },
+    {
+      "id": "tlmod.devtools",
+      "name": "Ferramentas de teste",
+      "version": "0.1.0",
+      "authors": [
+        "TLMod"
+      ],
+      "description": "Aba Ferramentas no painel: dar itens por nome ou ID, invocar NPCs e bosses, mudar e congelar a hora, curar, ficar invencível e matar inimigos próximos. Para testar mods; não deixe ligado num mundo de verdade.",
+      "tlmod_api": 1,
+      "icon_item": 3625,
+      "files": {
+        "android-arm64": {
+          "url": "https://raw.githubusercontent.com/VelkraLabs/TLMod-mods/main/pacotes/tlmod.devtools-0.1.0-android-arm64.zip",
+          "size": 172768,
+          "sha256": "9eb8c563e7b7bc8c53af67c70c8cf22c5d862a1c306f2b2d9ed9d569a57574a9"
+        }
+      }
+    },
+    {
+      "id": "tlmod.example_boss",
+      "name": "Exemplo: Titã de Brasa (esqueleto de boss)",
+      "version": "0.1.1",
+      "authors": [
+        "TLMod"
+      ],
+      "description": "Mostra onde um boss customizado se pluga: spawn, estado por NPC e comportamento por tick. Sem combate ainda.",
+      "tlmod_api": 1,
+      "icon_item": 43,
+      "files": {
+        "android-arm64": {
+          "url": "https://raw.githubusercontent.com/VelkraLabs/TLMod-mods/main/pacotes/tlmod.example_boss-0.1.1-android-arm64.zip",
+          "size": 85814,
+          "sha256": "a533c0b0c7581a37118f134301e187ab478b6fcbab027475b4ddc96739aefe50"
+        }
+      }
+    },
+    {
+      "id": "tlmod.example_item",
+      "name": "Exemplo: Rubi Fictício",
+      "version": "0.1.0",
+      "authors": [
+        "TLMod"
+      ],
+      "description": "Mod mínimo: registra um único item que não existe no jogo original.",
+      "tlmod_api": 1,
+      "icon_item": 178,
+      "files": {
+        "android-arm64": {
+          "url": "https://raw.githubusercontent.com/VelkraLabs/TLMod-mods/main/pacotes/tlmod.example_item-0.1.0-android-arm64.zip",
+          "size": 78079,
+          "sha256": "dca4ecd743665b216ecb921045374bfc21156b71569958356fa1603e5bed6eea"
+        }
+      }
+    }
+  ]
+}
