@@ -2,6 +2,43 @@
   "format": 1,
   "mods": [
     {
+      "id": "tlmod.armament_display",
+      "name": "ArmamentDisplay",
+      "version": "0.1.3",
+      "authors": [
+        "TLMod"
+      ],
+      "description": "Mostra no personagem a arma que ele tem em mãos enquanto não a usa: espadas, ferramentas e cajados nas costas, arcos e fuzis a tiracolo, pistolas no coldre e os itens pequenos no cinto. Vale para você e para os outros jogadores. As opções ficam no painel do mod.",
+      "tlmod_api": 1,
+      "icon_item": 2699,
+      "files": {
+        "android-arm64": {
+          "url": "https://raw.githubusercontent.com/VelkraLabs/TLMod-mods/main/pacotes/tlmod.armament_display-0.1.3-android-arm64.zip",
+          "size": 165252,
+          "sha256": "b486205f0be8dc31e2757f08db2bf4e7304a686a80f86ee11cf6d22f0503a8bc"
+        }
+      }
+    },
+    {
+      "id": "tlmod.basic_automated_mining",
+      "name": "Basic Automated Mining",
+      "version": "0.1.0",
+      "authors": [
+        "TLMod",
+        "Aitherix (o Basic Automated Mining original)"
+      ],
+      "description": "Minerar um minério da lista quebra o veio inteiro, como o Basic Automated Mining (BAM) do tModLoader: o limite de blocos, o alcance, o tempo ativo, a mana e as variantes no painel, e a lista branca com os 30 minérios e gemas do original, editável (o bloco mirado, ou a busca pelo nome).",
+      "tlmod_api": 1,
+      "icon_item": 1,
+      "files": {
+        "android-arm64": {
+          "url": "https://raw.githubusercontent.com/VelkraLabs/TLMod-mods/main/pacotes/tlmod.basic_automated_mining-0.1.0-android-arm64.zip",
+          "size": 183319,
+          "sha256": "5f93fa81bed73f3cb362966d6a5167c6527d51c4a2f6e8e829345523538e4c98"
+        }
+      }
+    },
+    {
       "id": "tlmod.boss_checklist",
       "name": "Boss Checklist",
       "version": "0.1.0",
@@ -14,8 +51,8 @@
       "files": {
         "android-arm64": {
           "url": "https://raw.githubusercontent.com/VelkraLabs/TLMod-mods/main/pacotes/tlmod.boss_checklist-0.1.0-android-arm64.zip",
-          "size": 83233,
-          "sha256": "c1c837737f4cf50d37bfd18371c6af198f5a3af448692a9347ae30b3e834ab9b"
+          "size": 83234,
+          "sha256": "37a6a1ef94b96f3904440fffa6c06a6cbe6c44ce3e899d50c7e43d8f201f9043"
         }
       }
     },
@@ -33,14 +70,14 @@
         "android-arm64": {
           "url": "https://raw.githubusercontent.com/VelkraLabs/TLMod-mods/main/pacotes/tlmod.devtools-0.1.0-android-arm64.zip",
           "size": 172768,
-          "sha256": "9eb8c563e7b7bc8c53af67c70c8cf22c5d862a1c306f2b2d9ed9d569a57574a9"
+          "sha256": "0a5296be15c912bb7af9af5b9bb63c28c9e3f3a91a7fcad9fbe44a603b0bcdfb"
         }
       }
     },
     {
       "id": "tlmod.example_boss",
       "name": "Exemplo: Titã de Brasa (esqueleto de boss)",
-      "version": "0.1.1",
+      "version": "0.1.0",
       "authors": [
         "TLMod"
       ],
@@ -49,9 +86,9 @@
       "icon_item": 43,
       "files": {
         "android-arm64": {
-          "url": "https://raw.githubusercontent.com/VelkraLabs/TLMod-mods/main/pacotes/tlmod.example_boss-0.1.1-android-arm64.zip",
-          "size": 85814,
-          "sha256": "a533c0b0c7581a37118f134301e187ab478b6fcbab027475b4ddc96739aefe50"
+          "url": "https://raw.githubusercontent.com/VelkraLabs/TLMod-mods/main/pacotes/tlmod.example_boss-0.1.0-android-arm64.zip",
+          "size": 85916,
+          "sha256": "0688759821e3414aadff02a03b331ce7a86d529ab706ffa93fb9e9936ef949fc"
         }
       }
     },
@@ -68,8 +105,119 @@
       "files": {
         "android-arm64": {
           "url": "https://raw.githubusercontent.com/VelkraLabs/TLMod-mods/main/pacotes/tlmod.example_item-0.1.0-android-arm64.zip",
-          "size": 78079,
-          "sha256": "dca4ecd743665b216ecb921045374bfc21156b71569958356fa1603e5bed6eea"
+          "size": 78184,
+          "sha256": "45a3fb7310721018ecb37023303b4ac7b8a8d668a202dd2e7882e506d0a5253a"
+        }
+      }
+    },
+    {
+      "id": "tlmod.expanded_inventory",
+      "name": "Expanded Inventory",
+      "version": "0.1.1",
+      "authors": [
+        "TLMod"
+      ],
+      "description": "Páginas extras do inventário: dois botões na tela do inventário trocam os 40 slots do inventário por outra página, com as páginas guardadas por personagem. Duas páginas extras no padrão (até nove, no painel do mod). Só num jogador.",
+      "tlmod_api": 1,
+      "icon_item": 48,
+      "files": {
+        "android-arm64": {
+          "url": "https://raw.githubusercontent.com/VelkraLabs/TLMod-mods/main/pacotes/tlmod.expanded_inventory-0.1.1-android-arm64.zip",
+          "size": 177779,
+          "sha256": "2f809a4dc57400317a6852db93c07d28cde3c4cd55971336992290efc730cab1"
+        }
+      }
+    },
+    {
+      "id": "tlmod.loot_beams",
+      "name": "Loot Beams",
+      "version": "0.1.0",
+      "authors": [
+        "TLMod",
+        "ChemAtDark (o Loot Beams original)"
+      ],
+      "description": "Um feixe de luz sobre cada item caído, na cor da raridade dele, como o Loot Beams do tModLoader: a raridade e o valor mínimos, os itens de missão, de especialista e de mestre, o tamanho e a opacidade ficam no painel do mod.",
+      "tlmod_api": 1,
+      "icon_item": 75,
+      "files": {
+        "android-arm64": {
+          "url": "https://raw.githubusercontent.com/VelkraLabs/TLMod-mods/main/pacotes/tlmod.loot_beams-0.1.0-android-arm64.zip",
+          "size": 173945,
+          "sha256": "aa2dc0dbf3a8f4135aba1fd3920fc7f8f77fd5dc2af8fefb7be7d9a91783f9ae"
+        }
+      }
+    },
+    {
+      "id": "tlmod.no_more_tombs",
+      "name": "No More Tombs",
+      "version": "0.1.0",
+      "authors": [
+        "TLMod",
+        "sts15 (o NoMoreTombs original)"
+      ],
+      "description": "Sem lápides quando você morre, como o NoMoreTombs do tModLoader; opcionalmente sem a mensagem de morte, com as lápides dos NPCs da cidade em qualquer dificuldade ou sem elas no hardcore. As seis lápides ganham receitas na bancada.",
+      "tlmod_api": 1,
+      "icon_item": 321,
+      "files": {
+        "android-arm64": {
+          "url": "https://raw.githubusercontent.com/VelkraLabs/TLMod-mods/main/pacotes/tlmod.no_more_tombs-0.1.0-android-arm64.zip",
+          "size": 161272,
+          "sha256": "a597ac28b8e353598c900d7161f57bcd7eee0c42d916f39bb111fee33ef2350c"
+        }
+      }
+    },
+    {
+      "id": "tlmod.overhealth",
+      "name": "Overhealth",
+      "version": "0.1.2",
+      "authors": [
+        "TLMod"
+      ],
+      "description": "A cura que passa do máximo vira vida extra, temporária, acima do máximo: poções, corações, a enfermeira e o roubo de vida enchem até o dobro da vida. Ela decai devagar, e mais depressa quanto mais houver. O máximo e a velocidade do decaimento ficam no painel do mod.",
+      "tlmod_api": 1,
+      "icon_item": 1291,
+      "files": {
+        "android-arm64": {
+          "url": "https://raw.githubusercontent.com/VelkraLabs/TLMod-mods/main/pacotes/tlmod.overhealth-0.1.2-android-arm64.zip",
+          "size": 162473,
+          "sha256": "2af0bf587eb31c2771e84feb7ce63399824095511f1060ad46b4d4509a70a614"
+        }
+      }
+    },
+    {
+      "id": "tlmod.shorter_respawn",
+      "name": "Shorter Respawn",
+      "version": "0.1.0",
+      "authors": [
+        "TLMod",
+        "jopojelly (o Shorter Respawn original)"
+      ],
+      "description": "O tempo de renascer menor e configurável, como o Shorter Respawn do tModLoader: escalas global, do especialista e de chefe (o padrão só reduz a do especialista), ou segundos exatos; o tempo cai quando o chefe some; renascimento instantâneo como trapaça. Tudo no painel do mod.",
+      "tlmod_api": 1,
+      "icon_item": 889,
+      "files": {
+        "android-arm64": {
+          "url": "https://raw.githubusercontent.com/VelkraLabs/TLMod-mods/main/pacotes/tlmod.shorter_respawn-0.1.0-android-arm64.zip",
+          "size": 168900,
+          "sha256": "1bd56e68587127694b8733f1e39491bdc011fef738cc614a27b7f29efccabf32"
+        }
+      }
+    },
+    {
+      "id": "tlmod.visual_tweaks",
+      "name": "Visual Tweaks",
+      "version": "0.1.6",
+      "authors": [
+        "TLMod"
+      ],
+      "description": "Ajustes visuais do jogo pelo painel: um filtro de tela por cima de tudo (sépia, preto e branco, CRT, um tom quente ou frio) com a força a escolher. A primeira parte do mod visual do TLMod; vale no menu e no mundo.",
+      "tlmod_api": 1,
+      "icon_item": 1071,
+      "files": {
+        "android-arm64": {
+          "url": "https://raw.githubusercontent.com/VelkraLabs/TLMod-mods/main/pacotes/tlmod.visual_tweaks-0.1.6-android-arm64.zip",
+          "size": 163058,
+          "sha256": "234a00c693aff3a55b8e328df2b248fcff6a2598f1275829a820dd19ff7f9a4e"
         }
       }
     }
