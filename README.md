@@ -12,11 +12,11 @@ Este repositório tem só mods prontos: nenhum código do TLMod e nenhum arquivo
 O TLMod só lê o catálogo se a assinatura bater com uma das chaves que ele traz, e só instala um pacote com o
 tamanho e o SHA-256 do catálogo. O catálogo e os pacotes são gerados pelo `tools/publicar_mods.py` do TLMod.
 
-## Catálogo de teste
+## O catálogo
 
-**O catálogo atual é de teste**: assinado com a chave de teste, que só a build de teste do TLMod aceita (a build
-normal ignora este catálogo). Ele traz os mods do pacote de teste 42 do TLMod; o `tlmod.example_boss` vai como
-0.1.1 (só o `manifest.json` muda em relação ao 0.1.0 do pacote) para dar o que atualizar no teste.
+O catálogo é assinado pela **chave da equipe** (`e8c9f732…2824e06`), que toda build do TLMod aceita. Ele traz 9
+mods: Armament Display, Basic Automated Mining, Boss Checklist, Expanded Inventory, Loot Beams, No More Tombs,
+Overhealth, Shorter Respawn e Visual Tweaks. Os pacotes ficam na pasta `pacotes/`.
 
-Quando a equipe gerar a chave dela, o catálogo de verdade substitui este, e os pacotes passam para as Releases
-do repositório.
+Para publicar uma versão nova, quem guarda a chave privada roda o `tools/publicar_mods.py catalogo` do TLMod com
+a pasta dos mods e troca aqui o `catalog.json`, o `catalog.json.sig` e os zips.
